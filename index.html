@@ -5,8 +5,12 @@
 <style>
 
 body {
-	background-image: url("https://k.top4top.io/p_2307bs2kv0.jpeg");
-}
+   background:url("https://k.top4top.io/p_2307bs2kv0.jpeg")  no-repeat center center;   / * تحميل صورة الخلفية * /   / * صورة الخلفية غير مبلطة * /
+   background-size:cover;  / * دع حجم صورة الخلفية يعتمد على حجم الحاوية * /
+   background-attachment:fixed;        / * عندما يكون ارتفاع المحتوى أكبر من ارتفاع الصورة ، يكون موضع صورة الخلفية ثابتًا بالنسبة إلى منفذ العرض * /    // يجب تعيين هذه السمة أو قد تكون غير صالحة /
+   background-color:#CCCCCC;   / * ضبط لون الخلفية ، سيتم عرض لون الخلفية أثناء عملية تحميل صورة الخلفية * /
+ }
+</style>
 
     *{
         user-select: none;
